@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{ /*모든 요소 초기화*/
+	margin:0;
+	padding:0;
+}
+body {
+	font-style: italic; /* 글꼴*/
+	background-color : rgb(236, 236, 236); /*배경*/
+	padding: 20px;
+	max-width: 1000px;/*최대 너비 */
+	margin: 0 auto;/*화면 중앙에 배치*/
+}
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgb(87, 87, 87);
+}
+.menu {
+	display: flex;/*플렉스 박스 레이아웃 사용*/
+	justify-content: space-around;/*요소들을 균등하게 배치*/
+	align-items: center;/*요스들을 수직 중앙 정렬*/
+	padding : 30px;
+}
+.menu-list {
+    display: flex; /*플렉스 박스 레이아웃 사용*/
+    flex-direction: column;/*요소들을 세로 방향*/
+    align-items: center;/*요소들을 수평 중앙 정렬*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;/*모서리 10px 만큼 둥글게*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*그림자*/
+}
+
+.menu-list img {
+    width: 100px; /*이미지 너비*/
+    height: 100px;/*이미지 높이*/
+    border-radius: 50%;/*이미지 원형*/
+    margin-bottom: 10px;
+}
+
+.menu-list p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

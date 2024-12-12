@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\LSY_Web\LSY_Web1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1670381781.index
+3650413467.index
+2440148142.index
+2628782292.index
+3427569129.index

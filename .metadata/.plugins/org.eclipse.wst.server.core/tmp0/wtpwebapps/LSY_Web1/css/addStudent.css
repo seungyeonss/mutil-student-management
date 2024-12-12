@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+    font-family: 'Arial' ; /* 기본폰트 */
+    background-color: #f4f4f4; /* 배경색 회색*/
+    margin: 0; /* 마진 제거*/
+    padding: 0; /* 패딩 */
+}
+
+h1 {
+    text-align: center; /* 중앙 */
+    color: rgb(82, 82, 82); 
+}
+
+
+fieldset {
+    border: 2px solid #ccc; /*최색 테두리 2px두께로 설정 */
+    border-radius: 5px;/* 테두리 모서리 5px만큼 둥글게*/
+    padding: 20px; /*패딩 20px */
+}
+
+legend {
+    font-size: 1.2em; /*폰트 크키 1.2배 */
+    padding: 0 10px;/* 좌우 패딩 0 10px*/
+    font-weight: bold;/* 폰트 굵게*/
+}
+
+label {
+    display: inline-block;/*인라인 블록 폭,높이 지정 */
+    width: 100px;/* 너비 지정 */
+    font-weight: bold;/* 폰트 굵게*/
+    margin-bottom: 10px; /* 아래쪽 마진 */
+}
+
+input[type="text"],
+input[type="tel"] { /* 전화번호,텍스트 스타일*/
+    padding: 10px; /* 내부 여백 */
+    margin-bottom: 15px;/* 아래쪽 마진*/
+    border: 1px solid #ccc;/* 회색 테두리 1px 두께로 설정*/
+    border-radius: 5px; /* 테두리 둥글게 */
+}
+
+input[type="submit"],
+input[type="reset"] { /* 제출 및 취소 버튼 스타일 */
+    padding: 10px 20px;
+    padding-top: 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;/*테두리 제거  */
+    border-radius: 5px; /* 버튼 모서리 5px 둥글게*/
+    margin-right: 10px;
+}
+
+div {
+    display: flex; /* 플렉스 박스 레이아웃 */
+    justify-content: flex-end;  /* 버튼을 오른쪽으로 정렬 */
+    margin-top: 20px;
+}
+
+
+input[type="reset"] {
+    background-color: #6c757d;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3; /* 마우스 올려둘시 배경색*/
+    
+}
+
+a {
+    display: block;/* 블록 요소 , 전체너비 사용 */
+    margin-top: 20px;
+    text-align: center;
+    color: #808080; 
+    font-size: 1.1em;
+    text-decoration: none;/* 밑줄 제거 */
+}
+
+a:hover {
+    text-decoration: underline;/* 마우스 오버시 밑줄 표시 */
+}

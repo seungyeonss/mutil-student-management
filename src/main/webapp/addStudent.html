@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>학생 등록 </title>
+<link rel="stylesheet" href="css/addStudent.css">
+ <script src="js/error.js"></script>  <!-- 자바스크립트 파일을 연결 -->
+</head>
+<body>
+<h1> 학생 등록 </h1>
+<hr>
+	<form action = "addStudent.do" method="post"> <!-- 길이 제한X 내용도 드러나지않게 post방식 사용 -->
+	<fieldset>
+		<legend> 학생 정보 </legend>
+		<label for = "user-id"> 학번 </label>
+		<input type = "text" id = "user-id" name = "id"  size = "40" required> <br> <!-- required 필수 입력 하게 지정 , 빈속성이면 경고창뜸 -->
+		<label for = "user-name"> 이름 </label>
+		<input type = "text" id = "user-name" name = "name" size = "40" required> <br>
+		<label for = "user-subject"> 학과 </label>
+		<input type = "text" id = "user-subject" name = "subject" size = "40"  required> <br>
+		<label for = "user-phone"> 전화번호 </label>
+		<input type = "tel" id = "user-phone" name = "phone" placeholder="하이픈 넣어 입력해주세요.(010-1234-5678)" size = "40" required> <br>
+	</fieldset>
+	
+	<div>
+	<input type = "submit" value = " 등록하기 ">
+	<input type = "reset" value = " 취소하기 ">
+	</div>
+	
+	<a href = "programList.html"> 홈으로 돌아가기 </a>
+
+	</form>
+	
+</body>
+</html>
